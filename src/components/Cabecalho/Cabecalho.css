@@ -1,0 +1,29 @@
+/*CSS da barra de navegação*/
+header{
+    width: 100%;
+    background-color: #ffffff;
+    height: 5vh;
+  }
+  .menu{
+    width: 20%;
+    background-color: #ffffff;
+    height: 5vh;
+  
+    margin-left: 2%;
+  
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+  
+    font-family: 'roboto', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #005EF2;
+  }
+  
+  .menu-link{
+    text-decoration: none;
+    color: #005EF2;
+    margin: 0 5% 0 5%;
+  }
