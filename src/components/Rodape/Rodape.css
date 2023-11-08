@@ -1,0 +1,31 @@
+/* CSS do footer */
+
+footer{
+    background-color: #002359;
+    width: 100%;
+    height: 20;
+   
+  }
+  .social-medias {
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    justify-content: center;
+
+    
+  }
+  
+  /* Estilos para os ícones individuais */
+  .social-media-logo {
+    margin: 0 10px; 
+    display: flex;
+    padding: 5% 0;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .footer-img{
+    width: 80%;
+    text-align: center;
+  }
+  
