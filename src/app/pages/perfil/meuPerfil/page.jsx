@@ -41,8 +41,16 @@ export default async function MeuPerfil(){
      // TODO apagar depois
      console.log(data2)
 
-
-     // TODO CHAMADOS API PYTHON RONALD
+    //api de python
+     const response3 = await fetch('http://127.0.0.1:8081/BuscaInformacoes', {
+        headers: {
+            'Content-Type': 'application/json'
+        },
+     })
+     
+     const data3 = await response3.json()
+     //apagar depois
+     console.log(data3)
     return(
         <>
             <div className="perfil">
@@ -66,55 +74,55 @@ export default async function MeuPerfil(){
                             </div>
                             <p>Civic 2.0 - SPORT - PRATA</p>
                         </div>
-                        <div className="veiculo-propriedade">
+                        {/* <div className="veiculo-propriedade">
                             <div className="veiculo-nome-propriedade">
                                 
                                 <p>Marca</p>
                             </div>
                             <p>Honda</p>
-                        </div>
-                        <div className="veiculo-propriedade">
+                        </div> */}
+                        {/* <div className="veiculo-propriedade">
                             <div className="veiculo-nome-propriedade">
                              
                                 <p>Combustivel</p>
                             </div>
                             <p>Gasolina</p>
-                        </div>
-                        <div className="veiculo-propriedade">
+                        </div> */}
+                        {/* <div className="veiculo-propriedade">
                             <div className="veiculo-nome-propriedade">
                                
                                 <p>Tipo</p>
                             </div>
                             <p>Automóvel</p>
-                        </div>
-                        <div className="veiculo-propriedade">
+                        </div> */}
+                        {/* <div className="veiculo-propriedade">
                             <div className="veiculo-nome-propriedade">
                                 
                                 <p>Categoria</p>
                             </div>
                             <p>Particular</p>
-                        </div>
-                        <div className="veiculo-propriedade">
+                        </div> */}
+                        {/* <div className="veiculo-propriedade">
                             <div className="veiculo-nome-propriedade">
                                
                                 <p>Passageiros</p>
                             </div>
                             <p>Quatro</p>
-                        </div>
-                        <div className="veiculo-propriedade">
+                        </div> */}
+                        {/* <div className="veiculo-propriedade">
                             <div className="veiculo-nome-propriedade">
                               
                                 <p>Espécie</p>
                             </div>
                             <p>Passageiro</p>
-                        </div>
-                        <div className="veiculo-propriedade">
+                        </div> */}
+                        {<div className="veiculo-propriedade">
                             <div className="veiculo-nome-propriedade">
                                
                                 <p>Carroceria</p>
                             </div>
                             <p>Não</p>
-                        </div>
+                        </div>}
                         <div className="veiculo-propriedade">
                             <div className="veiculo-nome-propriedade">
                                 
