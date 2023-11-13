@@ -1,0 +1,99 @@
+@import url(styles.css);
+
+.esqueceu-senha-principal{
+    background-color: #005EF2;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.esqueceu-senha-container{
+    width: 80vw;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+    
+}
+
+.senha-texto{
+    font-family: 'roboto';
+    color: #ffffff;
+    
+}
+
+.btn-enviar-senha{
+    width: 30%;
+    
+    background-color:#B0DFF9 ;
+    font-family: 'roboto';
+    color: #005EF2;
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 1% 0 1% 0;
+    border: none;
+    border-radius: 10px;
+
+    
+}
+
+.input-email{
+    width: 40vw;
+    height: 5vh;
+    background-color: #ffffff;
+    flex-shrink: 0;
+
+    margin: 5% 0 5% 0;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 15px 15px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.img-senha{
+   width:  30%;
+}
+
+
+@media screen and (max-width: 800px) {
+    .img-senha{
+        width: 50%;
+        height: 50%;
+    }
+
+    
+    .btn-enviar-senha{
+        width: 50%;
+    }
+
+    .input-email{
+        width: 80vw;
+        height: 5vh;
+
+    }
+    
+    .senha-texto{
+        font-family: 'roboto';
+        color: #ffffff;
+        text-align: center;
+        
+    }
+}
+
+@media screen and (max-width:500px){
+    .img-senha{
+        width: 80%;
+        height: 50%;
+    }
+    .senha-texto{
+        font-family: 'roboto';
+        color: #ffffff;
+        text-align: center;
+        
+    }
+}
