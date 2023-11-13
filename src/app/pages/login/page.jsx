@@ -11,6 +11,16 @@ export default async function Login() {
     let password = 'Maria123';
     let auth = btoa(`${username}:${password}`)
 
+    // Faz a requisição para a api usando as credenciais e retorna o objeto cliente
+    // com suas informações básicas e os ids de endereço e plano de seguro
+    // caso precise requisitar essas informações em algum momento
+    const response = await fetch('http://localhost:8080/PortoApi/api/cliente', {
+        headers: {
+            'Authorization': `Basic ${auth}`
+        }
+    })
+    
+
     
     return (
         <div className="body-login">
