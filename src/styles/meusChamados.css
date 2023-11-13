@@ -1,0 +1,31 @@
+.container-meuschamados{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.container-informacoes{
+    width: 50%;
+}
+
+@media screen and (max-width: 800px) {
+    .foto-ocorrido{
+        width: 40%;
+        height: 40%;
+
+    }
+    
+}
+
+@media screen and (max-width:400px ){
+    .container-meuschamados{
+        height: 100vh;
+        display: flex;
+        
+    }
+    
+    .container-informacoes {
+        width: 100%;
+       margin: 0 5% 0 5%;
+    }
+}
