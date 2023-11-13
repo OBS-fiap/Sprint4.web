@@ -14,7 +14,16 @@ export default async function MeusChamados() {
     let password = 'Maria123';
     let auth = btoa(`${username}:${password}`)
 
-    
+    // Com as informações do cliente na session, utiliza as variaveis para 
+    // transformar em base 64 pois para devolver somente os caminhões referente ao
+    // cliente logado, também serão necessarias as credenciais do mesmo(email, senha)
+    const response = await fetch('http://localhost:8080/PortoApi/api/caminhao', {
+        headers: {
+            'Authorization': `Basic ${auth}`
+        }
+    })
+
+   
     return(
         <>
         <main className='container-meuschamados'>
