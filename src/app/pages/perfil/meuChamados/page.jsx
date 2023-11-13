@@ -7,7 +7,14 @@ import Foto2 from "../../../assets/foto2.png"
 import Foto3 from "../../../assets/foto3.png"
 import Foto4 from "../../../assets/foto4.png"
 
-export default function MeusChamados() {
+export default async function MeusChamados() {
+    // Variáveis que serão recebidas quando cliente clicar em acessar, e sua
+    // transformação em base64 para encaminhar a autenticação para a api
+    let username = 'SilvMaria@gmail.com';
+    let password = 'Maria123';
+    let auth = btoa(`${username}:${password}`)
+
+    
     return(
         <>
         <main className='container-meuschamados'>
