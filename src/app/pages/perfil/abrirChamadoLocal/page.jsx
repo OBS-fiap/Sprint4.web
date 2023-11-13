@@ -18,6 +18,12 @@ export default async function Local() {
         }
     })
 
+    // Armazena os dados recebidos na variavel data, para ser armazenado na session
+    const data = await response.json()
+    // só para carater de informação para ver no console oq está recebendo
+    // TODO apagar depois
+    console.log(data)
+
     return(
         <>
         <main className="principal-local">
