@@ -4,7 +4,14 @@ import Link from "next/link"
 import "../../../styles/login.css"
 
 
-export default function Login() {
+export default async function Login() {
+    // Variáveis que serão recebidas quando cliente clicar em acessar, e sua
+    // transformação em base64 para encaminhar a autenticação para a api
+    let username = 'SilvMaria@gmail.com';
+    let password = 'Maria123';
+    let auth = btoa(`${username}:${password}`)
+
+    
     return (
         <div className="body-login">
             <main className="principal-login">
