@@ -1,0 +1,483 @@
+@import url( 'styles.css');
+
+.principal-sobre{
+    width: 100%;
+    height: 100vh;
+
+    background-image: url("../app/assets/background.svg") ;
+    background-repeat: no-repeat;
+    background-size:  cover; /* Faz a imagem cobrir todo o elemento */
+    background-position: center; /* Centraliza a imagem */
+
+    display: grid;
+    grid-template-columns: 50% 50% 50% 50%; /* Três colunas de largura igual */
+    
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.sobre-conteudo{
+    width: 50%;
+    grid-column: 2 / 3; /* Ocupa uma coluna */
+    margin: 0 20% 0 20%;
+}
+
+.dispositivo-img{
+    width: 100%;
+    align-items: center;
+}
+
+.sobre-titulo{
+    font-family: 'roboto';
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 2rem;
+    font-weight: bold;
+
+    text-align: center;
+    padding-bottom: 2%
+}
+
+.sobre-texto{
+    font-family: 'roboto';
+    color: #ffffff;
+    font-size: 1.5rem;
+    text-align: justify;
+}
+
+/* CSS das caixas de integrantes*/
+
+
+.time{
+    margin: 20% 0 0 0;
+}
+
+
+
+
+.container-integrantes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-content: center;
+
+    margin: 0 10% 10% 10%;
+}
+.integrante{
+    background-color: #6494FF;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.25);
+    width: 30% ;
+    height: 80vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 0 1%;
+    
+}
+
+
+.integrante-img{
+    width: 50%;
+    height: 90%;
+    padding-bottom: 10%;
+    align-items: center;
+    text-align: center;
+}
+
+.social-media-sobre{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:center;
+    flex-wrap: wrap;
+    padding-top: 15% ;
+}
+
+.social-media-img{
+    padding: 0 0 20% 0;
+ flex-wrap: wrap;
+}
+
+.sc-img{
+    width: 40px;
+}
+
+.integrantes-conteudo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+    margin-bottom: 5%;
+}
+
+.integrantes-titulo{
+    font-family: 'roboto';
+    
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: bold;
+
+    text-align: center;
+    padding-bottom: 2%
+}
+
+
+strong{
+    color: #002359;
+    font-weight: bold;
+    
+}
+
+.integrantes-texto{
+
+    font-family: 'roboto';
+    
+    color: #ffffff;
+    font-size: 1rem;
+    text-align: center;
+    padding: 5% 10% 0 10%;
+}
+
+/* Media Queries */
+
+/* Max width 769 x 1224 */
+@media (min-width: 769px ) and (max-width: 1224px){
+    /*Estilos para telas com largura maxima de 600px*/
+    .principal-sobre{
+        width: 100%;
+        height: 100vh;
+        background-image: url("../app/assets/background.svg") ;
+        background-repeat: no-repeat;
+        background-size:  cover; /* Faz a imagem cobrir todo o elemento */
+        background-position: center; /* Centraliza a imagem */
+    
+        display: grid;
+        grid-template-columns: 50% 50% 50% 50%; /* Três colunas de largura igual */
+        
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+    }
+
+    .integrante{
+        background-color: #6494FF;
+        box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.25);
+        width: 100% ;
+        height: 60vh;
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        margin: 0 1% 0 1%;
+        
+    }
+    .social-media-img{
+       width: 20%;
+        margin: 0 5% 0 5%;
+       }
+       .social-media-sobre{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content:center;
+        padding-top: 15% ;
+    }
+}
+
+/* Max width 481px - 768 */
+@media (min-width: 481px) and (max-width: 768px){
+
+    .principal-sobre{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .sobre-conteudo{
+        width: 70%;
+        grid-column: 2 / 3; /* Ocupa uma coluna */
+        margin: 40% 0 0 0;
+        
+    }
+
+    .dispositivo-img{
+        margin-bottom: 10%;
+    }
+
+    .sobre-titulo{
+        font-family: 'roboto';
+        text-transform: uppercase;
+        color: #ffffff;
+        font-size: 1.8rem;
+        font-weight: bold;
+    
+        text-align: center;
+        
+        padding-bottom: 2%
+    }
+    
+    .sobre-texto{
+        font-family: 'roboto';
+        color: #ffffff;
+        font-size: 15px;
+        text-align: justify;
+    }
+
+    .container-integrantes{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        justify-content: center;
+        flex-wrap: wrap;
+    
+        margin: 0 10% 10% 10%;
+    }
+    .integrante{
+        background-color: #6494FF;
+        box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.25);
+        width: 100% ;
+        height: 20vh;
+    
+        display: grid;
+        grid-template-columns: 50% 50%; /* duas colunas de largura igual */
+        grid-template-rows: 10% 10% 10% ;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        margin: 1% 1% 1% 1%;
+        
+    }
+
+    .grid-item{
+        grid-column: 1 ; /* Começa na segunda coluna e termina na quarta coluna */
+        grid-row: 1; /* Fica na primeira linha */
+    }
+
+    .grid-item2{
+        grid-column: 1 ; /* Começa na segunda coluna e termina na quarta coluna */
+        grid-row: 2; /* Fica na primeira linha */
+    }
+
+    .grid-item3{
+        grid-column: 2 ; /* Começa na segunda coluna e termina na quarta coluna */
+        grid-row: 1; /* Fica na primeira linha */
+    }
+
+    .grid-item4{
+        grid-column: 2 ; /* Começa na segunda coluna e termina na quarta coluna */
+        grid-row: 3; /* Fica na primeira linha */
+
+    }
+
+    .grid-item5{
+        grid-column: 2 ; /* Começa na segunda coluna e termina na quarta coluna */
+        grid-row: 2; /* Fica na primeira linha */
+
+    }
+
+
+    .sc-img{
+        width: 30px;
+        height: 30px;
+        margin: 5% 5%;
+    }
+    .integrantes-titulo{
+        font-family: 'roboto';
+        
+        color: #ffffff;
+        font-size: 15px;
+        font-weight: bold;
+    
+        text-align: center;
+        padding: 10% 10% 0 10%;
+    }
+
+    .integrantes-texto{
+
+        font-family: 'roboto';
+        
+        color: #ffffff;
+        font-size: 10px;
+        text-align: center;
+        padding: 16% 10% 0 10%;
+    }
+
+    .integrante-img{
+        width: 80px;
+        height: 70px;
+        padding: 10%;
+        align-items: center;
+        text-align: center;
+    }
+
+    .social-media-sobre{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content:center;
+        padding-top: 20% ;
+    }
+
+    .social-media-img{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin: 20% 0% 0 0%;   
+        flex-wrap: wrap;
+       }
+}
+    
+@media  (max-width: 481px){
+    .principal-sobre{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .sobre-conteudo{
+        width: 70%;
+        grid-column: 2 / 3; /* Ocupa uma coluna */
+        margin: 40% 0 0 0;
+        
+    }
+
+    .dispositivo-img{
+        margin-bottom: 10%;
+    }
+
+    .sobre-titulo{
+        font-family: 'roboto';
+        text-transform: uppercase;
+        color: #ffffff;
+        font-size: 1.8rem;
+        font-weight: bold;
+    
+        text-align: center;
+        
+        padding-bottom: 2%
+    }
+    
+    .sobre-texto{
+        width: 80%;
+        font-family: 'roboto';
+        color: #ffffff;
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .container-integrantes{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        justify-content: center;
+        flex-wrap: wrap;
+    
+        margin: 0 10% 10% 10%;
+    }
+    .integrante{
+        background-color: #6494FF;
+        box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.25);
+        width: 100% ;
+        height: 20vh;
+    
+        display: grid;
+        grid-template-columns: 50% 50%; /* duas colunas de largura igual */
+        grid-template-rows: 10% 10% 10% ;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        margin: 1% 1% 1% 1%;
+        
+    }
+
+    .grid-item{
+        grid-column: 1 ; /* Começa na segunda coluna e termina na quarta coluna */
+        grid-row: 1; /* Fica na primeira linha */
+    }
+
+    .grid-item2{
+        grid-column: 1 ; /* Começa na segunda coluna e termina na quarta coluna */
+        grid-row: 2; /* Fica na primeira linha */
+    }
+
+    .grid-item3{
+        grid-column: 2 ; /* Começa na segunda coluna e termina na quarta coluna */
+        grid-row: 1; /* Fica na primeira linha */
+    }
+
+    .grid-item4{
+        grid-column: 2 ; /* Começa na segunda coluna e termina na quarta coluna */
+        grid-row: 3; /* Fica na primeira linha */
+
+    }
+
+    .grid-item5{
+        grid-column: 2 ; /* Começa na segunda coluna e termina na quarta coluna */
+        grid-row: 2; /* Fica na primeira linha */
+
+    }
+
+
+    .integrantes-titulo{
+        font-family: 'roboto';
+        
+        color: #ffffff;
+        font-size: 12px;
+        font-weight: bold;
+    
+        text-align: center;
+        padding: 10% 10% 0 10%;
+    }
+
+    .integrantes-texto{
+
+        font-family: 'roboto';
+        
+        color: #ffffff;
+        font-size: 10px;
+        text-align: center;
+        padding: 16% 10% 0 10%;
+    }
+
+    .integrante-img{
+        width: 50px;
+        height: 50px;
+        padding: 10% 0 0 0;
+        align-items: center;
+        text-align: center;
+    }
+
+    .social-media-sobre{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content:center;
+        padding-top: 20% ;
+    }
+
+    .social-media-img{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin: 20% 0% 0 0%;   
+
+       }
+
+       .sc-img{
+        width: 30px;
+        height: 30px;
+    }
+}
