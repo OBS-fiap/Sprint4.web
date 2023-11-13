@@ -19,6 +19,11 @@ export default async function Login() {
             'Authorization': `Basic ${auth}`
         }
     })
+    // Armazena os dados recebidos na variavel data, para ser armazenado na session
+    const data = await response.json()
+    // só para carater de informação para ver no console oq está recebendo
+    // TODO apagar depois
+    console.log(data)
     
 
     
