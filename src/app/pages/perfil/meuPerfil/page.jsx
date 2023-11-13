@@ -26,6 +26,23 @@ export default async function MeuPerfil(){
      // só para carater de informação para ver no console oq está recebendo
      // TODO apagar depois
      console.log(data)
+
+    // Alem das credencias esse endpoint precisa do id de endereço que vc armazenou
+    // no objeto do cliente quando vc o recebeu no login, e o endereço que vc der o id
+    // tem que ser do dono dessas credencias
+    const response2 = await fetch(`http://localhost:8080/PortoApi/api/endereco/${1}`, {
+        headers: {
+            'Authorization': `Basic ${auth}`
+        }
+    })
+     // Armazena os dados recebidos na variavel data, para ser armazenado na session
+     const data2 = await response2.json()
+     // só para carater de informação para ver no console oq está recebendo
+     // TODO apagar depois
+     console.log(data2)
+
+
+     // TODO CHAMADOS API PYTHON RONALD
     return(
         <>
             <div className="perfil">
