@@ -24,6 +24,14 @@ export default async function Local() {
     // TODO apagar depois
     console.log(data)
 
+    //api de python
+    const response2 = await fetch('http://127.0.0.1:8081/CriarChamado', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json'
+        },
+    })
+
     return(
         <>
         <main className="principal-local">
@@ -48,23 +56,6 @@ export default async function Local() {
                     <label htmlFor="">Endereço</label>
                     <input type="text" />
 
-                    <label htmlFor="">Nº</label>
-                    <input type="number" />
-
-                    <label htmlFor="">CEP</label>
-                    <input type="number" />
-
-                    <label htmlFor="">Bairro</label>
-                    <input type="text" />
-
-                    <label htmlFor="">Estado</label>
-                    <input type="text" />
-
-                    <label htmlFor="">Cidade</label>
-                    <input type="text" />
-                    
-                    <label htmlFor="">Referencia</label>
-                    <input type="text" />
                 </form>
                 <div className="endereco-colun2">
                 <iframe className="mapa"
