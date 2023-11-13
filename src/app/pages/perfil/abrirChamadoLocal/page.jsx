@@ -2,12 +2,21 @@
 import "../../../../styles/local.css"
 
 
-export default function Local() {
+export default async function Local() {
     // Variáveis que serão recebidas quando cliente clicar em acessar, e sua
     // transformação em base64 para encaminhar a autenticação para a api
     let username = 'SilvMaria@gmail.com';
     let password = 'Maria123';
     let auth = btoa(`${username}:${password}`)
+
+    // Com as informações do cliente na session, utiliza as variaveis para 
+    // transformar em base 64 pois para devolver somente os caminhões referente ao
+    // cliente logado, também serão necessarias as credenciais do mesmo(email, senha)
+    const response = await fetch('http://localhost:8080/PortoApi/api/caminhao', {
+        headers: {
+            'Authorization': `Basic ${auth}`
+        }
+    })
 
     return(
         <>
