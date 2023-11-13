@@ -2,6 +2,8 @@ import "../../../../styles/descricao.css"
 
 
 export default function Descricao() {
+    // TODO informação necessária para api python
+
     return(
         <>
         <main className="container-descricao">

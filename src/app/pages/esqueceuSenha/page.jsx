@@ -5,6 +5,8 @@ import '../../../styles/esqueceuSenha.css'
 
 import Senha from '../../assets/senha.png'
 export default function EsqueceuSenha() {
+    // TODO api python
+    
     return (
         <div className="body-senha">
         <main className="esqueceu-senha-principal">
