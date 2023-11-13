@@ -3,6 +3,12 @@ import "../../../../styles/local.css"
 
 
 export default function Local() {
+    // Variáveis que serão recebidas quando cliente clicar em acessar, e sua
+    // transformação em base64 para encaminhar a autenticação para a api
+    let username = 'SilvMaria@gmail.com';
+    let password = 'Maria123';
+    let auth = btoa(`${username}:${password}`)
+
     return(
         <>
         <main className="principal-local">
