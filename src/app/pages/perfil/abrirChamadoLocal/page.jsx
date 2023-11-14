@@ -4,7 +4,7 @@ import "../../../../styles/local.css"
 
 export default async function Local() {
     
-    let username = 'SilvMaria@gmail.com';
+  /*  let username = 'SilvMaria@gmail.com';
     let password = 'Maria123';
     let auth = btoa(`${username}:${password}`)
 
@@ -26,8 +26,7 @@ export default async function Local() {
         headers: {
             'Content-Type': 'application/json'
         },
-    })
-
+    }) */
     return(
         <>
         <main className="principal-local">

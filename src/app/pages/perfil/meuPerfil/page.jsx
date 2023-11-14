@@ -8,7 +8,7 @@ import Veiculo from "../../../assets/veiculo.png"
 
 export default async function MeuPerfil(){
    
-    let username = 'SilvMaria@gmail.com';
+    /*let username = 'SilvMaria@gmail.com';
     let password = 'Maria123';
     let auth = btoa(`${username}:${password}`)
 
@@ -43,7 +43,7 @@ export default async function MeuPerfil(){
      
      const data3 = await response3.json()
      //apagar depois
-     console.log(data3)
+     console.log(data3)*/
     return(
         <>
             <div className="perfil">

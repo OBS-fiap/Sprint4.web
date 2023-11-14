@@ -6,7 +6,7 @@ import "../../../styles/login.css"
 
 export default async function Login() {
    
-    let username = 'SilvMaria@gmail.com';
+   /* let username = 'SilvMaria@gmail.com';
     let password = 'Maria123';
     let auth = btoa(`${username}:${password}`)
 
@@ -19,7 +19,7 @@ export default async function Login() {
    
     const data = await response.json()
  
-    console.log(data)
+    console.log(data)*/
     
 
     
