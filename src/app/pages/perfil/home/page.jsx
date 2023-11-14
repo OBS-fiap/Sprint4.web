@@ -5,13 +5,11 @@ import "../../../../styles/home.css"
 import Pessoa from "../../../assets/pessoa.svg"
 import Chamado from  "../../../assets/adicionar.svg"
 import Acompanhar from "../../../assets/relogio.svg"
-import Veiculo from "../../../assets/carro.svg"
-import Cancelar from "../../../assets/cancelar.svg"
+
 
 
 export default function AbrirChamadoConfirmacao(){
-    // TODO pegar dados do cliente do que vc armazenou na sessionStorage quando logou
-
+   
     return(
         <>
         <main>

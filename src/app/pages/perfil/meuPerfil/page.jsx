@@ -7,41 +7,34 @@ import FotoPerfil from "../../../assets/foto-perfil.png"
 import Veiculo from "../../../assets/veiculo.png"
 
 export default async function MeuPerfil(){
-    // Variáveis que serão recebidas quando cliente clicar em acessar, e sua
-    // transformação em base64 para encaminhar a autenticação para a api
+   
     let username = 'SilvMaria@gmail.com';
     let password = 'Maria123';
     let auth = btoa(`${username}:${password}`)
 
-    // Com as informações do cliente na session, utiliza as variaveis para 
-    // transformar em base 64 pois para devolver somente os caminhões referente ao
-    // cliente logado, também serão necessarias as credenciais do mesmo(email, senha)
+    
     const response = await fetch('http://localhost:8080/PortoApi/api/caminhao', {
         headers: {
             'Authorization': `Basic ${auth}`
         }
     })
-     // Armazena os dados recebidos na variavel data, para ser armazenado na session
+     
      const data = await response.json()
-     // só para carater de informação para ver no console oq está recebendo
-     // TODO apagar depois
+  
      console.log(data)
 
-    // Alem das credencias esse endpoint precisa do id de endereço que vc armazenou
-    // no objeto do cliente quando vc o recebeu no login, e o endereço que vc der o id
-    // tem que ser do dono dessas credencias
+    
     const response2 = await fetch(`http://localhost:8080/PortoApi/api/endereco/${1}`, {
         headers: {
             'Authorization': `Basic ${auth}`
         }
     })
-     // Armazena os dados recebidos na variavel data, para ser armazenado na session
+    
      const data2 = await response2.json()
-     // só para carater de informação para ver no console oq está recebendo
-     // TODO apagar depois
+   
      console.log(data2)
 
-    //api de python
+  
      const response3 = await fetch('http://127.0.0.1:8081/BuscaInformacoes', {
         headers: {
             'Content-Type': 'application/json'
@@ -56,7 +49,7 @@ export default async function MeuPerfil(){
             <div className="perfil">
                 
                 <div className="container-perfil">
-                    <Image className="foto-perfil" src={FotoPerfil} />
+                    <Image className="foto-perfil" src={FotoPerfil} alt="foto do usuario" />
                     <div>
                         <h1 className="perfil-nome">Mariana Peixoto</h1>
                         <p className="perfil-email">marianapeixoto@gmail.com</p>
@@ -74,48 +67,48 @@ export default async function MeuPerfil(){
                             </div>
                             <p>Civic 2.0 - SPORT - PRATA</p>
                         </div>
-                        {/* <div className="veiculo-propriedade">
+                         <div className="veiculo-propriedade">
                             <div className="veiculo-nome-propriedade">
                                 
                                 <p>Marca</p>
                             </div>
                             <p>Honda</p>
-                        </div> */}
-                        {/* <div className="veiculo-propriedade">
+                        </div> */
+                         <div className="veiculo-propriedade">
                             <div className="veiculo-nome-propriedade">
                              
                                 <p>Combustivel</p>
                             </div>
                             <p>Gasolina</p>
-                        </div> */}
-                        {/* <div className="veiculo-propriedade">
+                        </div> */
+                         <div className="veiculo-propriedade">
                             <div className="veiculo-nome-propriedade">
                                
                                 <p>Tipo</p>
                             </div>
                             <p>Automóvel</p>
-                        </div> */}
-                        {/* <div className="veiculo-propriedade">
+                        </div> */
+                         <div className="veiculo-propriedade">
                             <div className="veiculo-nome-propriedade">
                                 
                                 <p>Categoria</p>
                             </div>
                             <p>Particular</p>
-                        </div> */}
-                        {/* <div className="veiculo-propriedade">
+                        </div> 
+                        <div className="veiculo-propriedade">
                             <div className="veiculo-nome-propriedade">
                                
                                 <p>Passageiros</p>
                             </div>
                             <p>Quatro</p>
-                        </div> */}
-                        {/* <div className="veiculo-propriedade">
+                        </div> 
+                         <div className="veiculo-propriedade">
                             <div className="veiculo-nome-propriedade">
                               
                                 <p>Espécie</p>
                             </div>
                             <p>Passageiro</p>
-                        </div> */}
+                        </div> 
                         {<div className="veiculo-propriedade">
                             <div className="veiculo-nome-propriedade">
                                

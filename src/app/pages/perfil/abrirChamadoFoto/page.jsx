@@ -1,7 +1,7 @@
 import "../../../../styles/foto.css"
 
 export default function MeuPerfilFoto(){
-    // TODO api python Vitor
+
 
     return(
         <>

@@ -1,11 +1,11 @@
 import Image from "next/image"
-import Link from "next/link"
 
-import '../../../styles/esqueceuSenha.css'
 
-import Senha from '../../assets/senha.png'
+import "../../../styles/esqueceuSenha.css"
+
+import Senha from "../../assets/senha.png"
 export default function EsqueceuSenha() {
-    // TODO api python
+    
     
     return (
         <div className="body-senha">
