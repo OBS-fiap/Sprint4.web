@@ -18,9 +18,9 @@ export default function Ajuda() {
           <summary><p className="titulo-duvida">Aqui é um exemplo de duvida</p>
           <Image className="faq-seta" src={Seta} alt="Seta"/></summary>
                         <p className="texto-duvida">is simply dummy text of the printing and
-                        typesetting industry. Lorem Ipsum has been
-                        the industry's standard dummy text ever since ndustry's standard du ndustry's st
-                        the 1500s, when an unknow printer took a galley ndustry's standard du ndustry's s
+                        typesetting industry. Lorem Ipsum has bee
+                        the industrys standard dummy text ever since ndustrys standard du ndustrys st
+                        the 1500s, when an unknow printer took a galley ndustrys standard du ndustrys s
                         of type and scrambled it to make a type specimen book.</p>
         </details>
 
@@ -29,8 +29,18 @@ export default function Ajuda() {
           <Image className="faq-seta" src={Seta} alt="Seta"/></summary>
                         <p className="texto-duvida">is simply dummy text of the printing and
                         typesetting industry. Lorem Ipsum has been
-                        the industry's standard dummy text ever since ndustry's standard du ndustry's st
-                        the 1500s, when an unknow printer took a galley ndustry's standard du ndustry's s
+                        the industry's standard dummy text ever since ndustrys standard du ndustrys st
+                        the 1500s, when an unknow printer took a galley ndustrys standard du ndustrys s
+                        of type and scrambled it to make a type specimen book.</p>
+        </details>
+
+        <details>
+          <summary><p className="titulo-duvida">Aqui é um exemplo de duvida</p>
+          <Image className="faq-seta" src={Seta} alt="Seta"/></summary>
+                        <p className="texto-duvida">is simply dummy text of the printing and
+                        typesetting industry. Lorem Ipsum has bee
+                        the industrys standard dummy text ever since ndustrys standard du ndustrys st
+                        the 1500s, when an unknow printer took a galley ndustrys standard du ndustrys s
                         of type and scrambled it to make a type specimen book.</p>
         </details>
 
@@ -39,8 +49,8 @@ export default function Ajuda() {
           <Image className="faq-seta" src={Seta} alt="Seta"/></summary>
                         <p className="texto-duvida">is simply dummy text of the printing and
                         typesetting industry. Lorem Ipsum has been
-                        the industry's standard dummy text ever since ndustry's standard du ndustry's st
-                        the 1500s, when an unknow printer took a galley ndustry's standard du ndustry's s
+                        the industry's standard dummy text ever since ndustrys standard du ndustrys st
+                        the 1500s, when an unknow printer took a galley ndustry standard du ndustry' s
                         of type and scrambled it to make a type specimen book.</p>
         </details>
 
@@ -49,8 +59,8 @@ export default function Ajuda() {
           <Image className="faq-seta" src={Seta} alt="Seta"/></summary>
                         <p className="texto-duvida">is simply dummy text of the printing and
                         typesetting industry. Lorem Ipsum has been
-                        the industry's standard dummy text ever since ndustry's standard du ndustry's st
-                        the 1500s, when an unknow printer took a galley ndustry's standard du ndustry's s
+                        the industry's standard dummy text ever since ndustrys standard du ndustrys st
+                        the 1500s, when an unknow printer took a galley ndustrys standard du ndustry s
                         of type and scrambled it to make a type specimen book.</p>
         </details>
 
@@ -59,18 +69,8 @@ export default function Ajuda() {
           <Image className="faq-seta" src={Seta} alt="Seta"/></summary>
                         <p className="texto-duvida">is simply dummy text of the printing and
                         typesetting industry. Lorem Ipsum has been
-                        the industry's standard dummy text ever since ndustry's standard du ndustry's st
-                        the 1500s, when an unknow printer took a galley ndustry's standard du ndustry's s
-                        of type and scrambled it to make a type specimen book.</p>
-        </details>
-
-        <details>
-          <summary><p className="titulo-duvida">Aqui é um exemplo de duvida</p>
-          <Image className="faq-seta" src={Seta} alt="Seta"/></summary>
-                        <p className="texto-duvida">is simply dummy text of the printing and
-                        typesetting industry. Lorem Ipsum has been
-                        the industry's standard dummy text ever since ndustry's standard du ndustry's st
-                        the 1500s, when an unknow printer took a galley ndustry's standard du ndustry's s
+                        the industry's standard dummy text ever since ndustrys standard du ndustrys st
+                        the 1500s, when an unknow printer took a galley ndustrys standard du ndustrys s
                         of type and scrambled it to make a type specimen book.</p>
         </details> 
       </div>
