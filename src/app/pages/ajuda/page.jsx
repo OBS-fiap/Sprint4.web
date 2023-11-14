@@ -48,7 +48,7 @@ export default function Ajuda() {
           <summary><p className="titulo-duvida">Aqui é um exemplo de duvida</p>
           <Image className="faq-seta" src={Seta} alt="Seta"/></summary>
                         <p className="texto-duvida">is simply dummy text of the printing and
-                        typesetting industry. Lorem Ipsum has been
+                        typesetting textpo de exemplo
                         the industrys standard dummy text ever since ndustrys standard du ndustrys st
                         the 1500s, when an unknow printer took a galley ndustry standard du ndustrys
                         of type and scrambled it to make a type specimen book.</p>

@@ -29,7 +29,7 @@ export default async function Login() {
                 <div className="form-login">
                     <div className="login-conteudo">
                         <h1 className="login-titulo">Login</h1>
-                        <p className="login-texto">Digite os seus dados de acesso no campo abaixo</p>
+                        <p className="login-texto">Digite os seus dados de acesso no campo abaixo, por favor!</p>
                     </div>
                     <form>
                         <div>
