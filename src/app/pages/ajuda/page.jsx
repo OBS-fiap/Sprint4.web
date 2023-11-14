@@ -1,5 +1,4 @@
 import Image from "next/image"
-import Link from "next/link"
 import "../../../styles/ajuda.css"
 
 import Chatbot2 from "../../assets/chatbot-2.png"
