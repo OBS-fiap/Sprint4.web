@@ -6,7 +6,7 @@
 + VITOR TEIXEIRA 552228
  
 # ACESSANDO O PROJETO
-Você pode acesssar o deploy no vercel [Clicando Aqui](https://github.com/markdown-it/markdown-it-sub)
+Você pode acesssar o deploy no vercel [Clicando Aqui](https://sprint4-web-id3b.vercel.app/)
 
 
 # INFORMAÇÕES SOBRE O NEXT
