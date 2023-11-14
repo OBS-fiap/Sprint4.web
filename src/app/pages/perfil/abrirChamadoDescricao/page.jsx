@@ -2,14 +2,14 @@ import "../../../../styles/descricao.css"
 
 
 export default async function Descricao() {
-    const response = await fetch("http://127.0.0.1:8081/AdicionaDescricao", {
+   /* const response = await fetch("http://127.0.0.1:8081/AdicionaDescricao", {
         method: 'PUT',
         headers: {
             'Content-Type': 'application/json'
           }
       });
 
-      console.log(response)
+      console.log(response)*/
 
     return(
         <>

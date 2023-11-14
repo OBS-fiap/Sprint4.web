@@ -3,7 +3,7 @@ import Link from "next/link"
 import "../../../../styles/descricao.css"
 
 export default function MeuPerfilOcorrido(){
-    // ??
+    
 
     return(
         <>

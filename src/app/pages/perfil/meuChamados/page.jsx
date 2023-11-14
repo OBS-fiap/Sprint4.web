@@ -9,7 +9,7 @@ import Foto4 from "../../../assets/foto4.png"
 
 export default async function MeusChamados() {
     
-    let username = 'SilvMaria@gmail.com';
+   /* let username = 'SilvMaria@gmail.com';
     let password = 'Maria123';
     let auth = btoa(`${username}:${password}`)
 
@@ -22,7 +22,7 @@ export default async function MeusChamados() {
      
      const data = await response.json()
     
-     console.log(data)
+     console.log(data)*/
    
     return(
         <>
