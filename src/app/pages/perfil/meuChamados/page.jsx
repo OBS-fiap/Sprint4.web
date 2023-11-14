@@ -40,11 +40,8 @@ export default async function MeusChamados() {
             <div>
                 <p><strong>Automovel:</strong> Civic - 2.0 - SPORT PRATA </p>
                 <p><strong>Condutor:</strong> Mariana Peixoto</p>
-                <p><strong>Ocorrido:</strong> is simply dummy text of the printing and 
-                    typesetting industry. Lorem Ipsum has been the industry's 
-                    tandard dummy text ever since the 1500s, when an unknown 
-                    printer took a galley of type and scrambled it to make a 
-                    type specimen </p>
+                <p><strong>Ocorrido:</strong> O carro bateu com outro caminhão durante o trajeto na 
+                Av. Raposo Tavares, o outro carro perdeu o controle e atingiu o meu</p>
 
                 <p><strong>Fotos</strong></p>
                 <div>
