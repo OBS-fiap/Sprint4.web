@@ -29,7 +29,7 @@ export default function Ajuda() {
           <Image className="faq-seta" src={Seta} alt="Seta"/></summary>
                         <p className="texto-duvida">is simply dummy text of the printing and
                         typesetting industry. Lorem Ipsum has been
-                        the industry's standard dummy text ever since ndustrys standard du ndustrys st
+                        the industrs standard dummy text ever since ndustrys standard du ndustrys st
                         the 1500s, when an unknow printer took a galley ndustrys standard du ndustrys s
                         of type and scrambled it to make a type specimen book.</p>
         </details>
@@ -49,8 +49,8 @@ export default function Ajuda() {
           <Image className="faq-seta" src={Seta} alt="Seta"/></summary>
                         <p className="texto-duvida">is simply dummy text of the printing and
                         typesetting industry. Lorem Ipsum has been
-                        the industry's standard dummy text ever since ndustrys standard du ndustrys st
-                        the 1500s, when an unknow printer took a galley ndustry standard du ndustry' s
+                        the industrys standard dummy text ever since ndustrys standard du ndustrys st
+                        the 1500s, when an unknow printer took a galley ndustry standard du ndustrys
                         of type and scrambled it to make a type specimen book.</p>
         </details>
 
@@ -59,7 +59,7 @@ export default function Ajuda() {
           <Image className="faq-seta" src={Seta} alt="Seta"/></summary>
                         <p className="texto-duvida">is simply dummy text of the printing and
                         typesetting industry. Lorem Ipsum has been
-                        the industry's standard dummy text ever since ndustrys standard du ndustrys st
+                        the industrys standard dummy text ever since ndustrys standard du ndustrys st
                         the 1500s, when an unknow printer took a galley ndustrys standard du ndustry s
                         of type and scrambled it to make a type specimen book.</p>
         </details>
@@ -69,7 +69,7 @@ export default function Ajuda() {
           <Image className="faq-seta" src={Seta} alt="Seta"/></summary>
                         <p className="texto-duvida">is simply dummy text of the printing and
                         typesetting industry. Lorem Ipsum has been
-                        the industry's standard dummy text ever since ndustrys standard du ndustrys st
+                        the industryss standard dummy text ever since ndustrys standard du ndustrys st
                         the 1500s, when an unknow printer took a galley ndustrys standard du ndustrys s
                         of type and scrambled it to make a type specimen book.</p>
         </details> 
